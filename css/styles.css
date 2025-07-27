@@ -867,3 +867,14 @@ button:focus,
     }
 }
 
+.logo-img {
+  max-width: 100%;
+  height: auto;
+  max-height: 80px;
+}
+@media (max-width: 768px) {
+  .logo-img {
+    max-height: 48px;
+  }
+}
+
