@@ -63,7 +63,8 @@ if (quoteForm) {
         
         // Simulate form submission (replace with actual form handling)
         setTimeout(() => {
-            alert('Thank you for your quote request! We will contact you within 1 hour.');
+            //alert('Thank you for your quote request! We will contact you within 1 hour.');
+			window.location.href = "/thank-you.html";
             this.reset();
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
@@ -88,7 +89,8 @@ if (contactForm) {
         
         // Simulate form submission (replace with actual form handling)
         setTimeout(() => {
-            alert('Thank you for your message! We will get back to you within 24 hours.');
+            //alert('Thank you for your message! We will get back to you within 24 hours.');
+			window.location.href = "/thank-you.html";
             this.reset();
             submitBtn.textContent = originalText;
             submitBtn.disabled = false;
