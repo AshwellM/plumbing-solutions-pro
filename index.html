@@ -189,7 +189,7 @@
                     <div class="quote-form">
                         <h3>Get a Fast Quote</h3>
                         <p>Complete the form below & we will get back to you within <strong>1 hour</strong> with a quote.</p>
-                        <form id="quote-form" action="https://api.web3forms.com/submit" method="POST">
+                        <form id="quote-form">
 							<input type="hidden" name="access_key" value="322fad1d-4c2e-4359-b83e-1e815a963cfd">
                             <div class="form-group">
                                 <label for="fullName">Full Name *</label>
@@ -221,6 +221,7 @@
 							<!-- Honeypot Spam Protection -->
 							<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                             <button type="submit" class="btn btn-primary btn-full">Submit Request</button>
+							<div id="result"></div>
                         </form>
                     </div>
                 </div>
@@ -490,7 +491,7 @@
                 </div>
                 
                 <div class="contact-form">
-                    <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                    <form id="contact-form">
 						<input type="hidden" name="access_key" value="322fad1d-4c2e-4359-b83e-1e815a963cfd">
 						
                         <div class="form-row">
@@ -526,6 +527,7 @@
 						<!-- Honeypot Spam Protection -->
 						<input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                         <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+						<div id="result"></div>
                     </form>
                 </div>
             </div>
