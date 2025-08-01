@@ -23,8 +23,8 @@ A professional, responsive website for Plumbing Solutions Pro - a plumbing and h
 
 - **Company**: Plumbing Solutions Pro
 - **Location**: Johannesburg, Gauteng, South Africa
-- **Phone**: 084 123 4567
-- **Email**: plumbingsolutionspro@gmail.com
+- **Phone**: 084 550 9312
+- **Email**: plumbingsolutionspro.sa@gmail.com
 - **Service Areas**: Johannesburg CBD, Sandton, Randburg, Roodepoort, Midrand, and surrounding areas
 
 ## File Structure
